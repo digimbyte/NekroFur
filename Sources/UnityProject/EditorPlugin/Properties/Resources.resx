@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Foldout_DebugDraw" xml:space="preserve">
+    <value>Debug Draw</value>
+  </data>
+  <data name="Foldout_LOD" xml:space="preserve">
+    <value>Level of Detail Parameters</value>
+  </data>
+  <data name="Foldout_Physics" xml:space="preserve">
+    <value>Fur Physics Parameters</value>
+  </data>
+  <data name="Foldout_Platforms" xml:space="preserve">
+    <value>Platforms</value>
+  </data>
+  <data name="Foldout_Preprocess" xml:space="preserve">
+    <value>Preprocessing</value>
+  </data>
+  <data name="Foldout_Shadows" xml:space="preserve">
+    <value>Shadows</value>
+  </data>
+  <data name="Label_AirResistMult" xml:space="preserve">
+    <value>Air Resistance Multiplier</value>
+  </data>
+  <data name="Label_BendExp" xml:space="preserve">
+    <value>Bend Exponent</value>
+  </data>
+  <data name="Label_ControlPointDotColor" xml:space="preserve">
+    <value>Control Point Dot Color</value>
+  </data>
+  <data name="Label_ControlPointDotSize" xml:space="preserve">
+    <value>Control Point Dot Size</value>
+  </data>
+  <data name="Label_ControlPointRayColor" xml:space="preserve">
+    <value>Control Point Ray Color</value>
+  </data>
+  <data name="Label_DebugText" xml:space="preserve">
+    <value>Draw Debug Text</value>
+  </data>
+  <data name="Label_DisplayMesh" xml:space="preserve">
+    <value>Display Mesh</value>
+  </data>
+  <data name="Label_DrawControlPoints" xml:space="preserve">
+    <value>Draw Control Points</value>
+  </data>
+  <data name="Label_DrawFurGuides" xml:space="preserve">
+    <value>Draw Fur Guides</value>
+  </data>
+  <data name="Label_FurGuideGenMethod" xml:space="preserve">
+    <value>Fur Guide Gen Method</value>
+  </data>
+  <data name="Label_FurLength" xml:space="preserve">
+    <value>Shell Distance (cm)</value>
+  </data>
+  <data name="Label_FurMat" xml:space="preserve">
+    <value>Fur Material</value>
+  </data>
+  <data name="Label_GravityInfluence" xml:space="preserve">
+    <value>Gravity Influence</value>
+  </data>
+  <data name="Label_GuideDotColor" xml:space="preserve">
+    <value>Guide Dot Color</value>
+  </data>
+  <data name="Label_GuideDotSize" xml:space="preserve">
+    <value>Guide Dot Size</value>
+  </data>
+  <data name="Label_GuideLength" xml:space="preserve">
+    <value>Guide Length</value>
+  </data>
+  <data name="Label_GuideRayColor" xml:space="preserve">
+    <value>Guide Ray Color</value>
+  </data>
+  <data name="Label_LODEndDist" xml:space="preserve">
+    <value>LOD End Distance</value>
+  </data>
+  <data name="Label_LODMaxCamDist" xml:space="preserve">
+    <value>Maximum Distance from Camera</value>
+  </data>
+  <data name="Label_LODMinShells" xml:space="preserve">
+    <value>LOD Minimum Shell Count</value>
+  </data>
+  <data name="Label_LODNearCompressionDist" xml:space="preserve">
+    <value>Near Compression Distance</value>
+  </data>
+  <data name="Label_LODNearCompressionMax" xml:space="preserve">
+    <value>Near Compression Max</value>
+  </data>
+  <data name="Label_LODNearCompressionMin" xml:space="preserve">
+    <value>Near Compression Min</value>
+  </data>
+  <data name="Label_LODStartDist" xml:space="preserve">
+    <value>LOD Start Distance</value>
+  </data>
+  <data name="Label_MaxRotFromNormal" xml:space="preserve">
+    <value>Max Rotation from Normal</value>
+  </data>
+  <data name="Label_MaxStretchMult" xml:space="preserve">
+    <value>Max Stretch Distance Multiplier</value>
+  </data>
+  <data name="Label_MinStretchMult" xml:space="preserve">
+    <value>Min Stretch Distance Multiplier</value>
+  </data>
+  <data name="Label_NormalDirectionBlend" xml:space="preserve">
+    <value>Normal Direction Blend</value>
+  </data>
+  <data name="Label_OverrideGrowthMesh" xml:space="preserve">
+    <value>Override Growth Mesh</value>
+  </data>
+  <data name="Label_OverrideRenderer" xml:space="preserve">
+    <value>Override Renderer</value>
+  </data>
+  <data name="Label_RadialInfluence" xml:space="preserve">
+    <value>Radial Force Influence</value>
+  </data>
+  <data name="Label_RecieveShadows" xml:space="preserve">
+    <value>Recieve Shadows</value>
+  </data>
+  <data name="Label_SceneCamera" xml:space="preserve">
+    <value>Scene Camera</value>
+  </data>
+  <data name="Label_ShadowCastingMode" xml:space="preserve">
+    <value>Shadow Casting Mode</value>
+  </data>
+  <data name="Label_ShellCount" xml:space="preserve">
+    <value>Shell Count</value>
+  </data>
+  <data name="Label_ShellFade" xml:space="preserve">
+    <value>Shell Fade</value>
+  </data>
+  <data name="Label_SpringAngStiff" xml:space="preserve">
+    <value>Spring Angle Stiffness</value>
+  </data>
+  <data name="Label_SpringDampMult" xml:space="preserve">
+    <value>Spring Dampening Multiplier</value>
+  </data>
+  <data name="Label_SpringLenStiff" xml:space="preserve">
+    <value>Spring Length Stiffness</value>
+  </data>
+  <data name="Label_SubMeshIndex" xml:space="preserve">
+    <value>Growth Mesh Material ID</value>
+  </data>
+  <data name="Label_UseComputeShader" xml:space="preserve">
+    <value>Use Compute Shader?</value>
+  </data>
+  <data name="Label_UseRendererSettings" xml:space="preserve">
+    <value>Use Renderer Settings</value>
+  </data>
+  <data name="Label_VelocityInfluence" xml:space="preserve">
+    <value>Velocity Influence</value>
+  </data>
+  <data name="Label_WindInfluence" xml:space="preserve">
+    <value>Wind Influence</value>
+  </data>
+  <data name="Label_WindZone" xml:space="preserve">
+    <value>Optional WindZone</value>
+  </data>
+  <data name="Tooltip_AirResistMult" xml:space="preserve">
+    <value>Air Resistance Multiplier</value>
+  </data>
+  <data name="Tooltip_BendExp" xml:space="preserve">
+    <value>Controls the bendiness of fur strands</value>
+  </data>
+  <data name="Tooltip_ControlPointDotColor" xml:space="preserve">
+    <value>Debug - Color of control point dots</value>
+  </data>
+  <data name="Tooltip_ControlPointDotSize" xml:space="preserve">
+    <value>Debug - Size of control point dots</value>
+  </data>
+  <data name="Tooltip_ControlPointRayColor" xml:space="preserve">
+    <value>Debug - Color of control point rays</value>
+  </data>
+  <data name="Tooltip_DebugText" xml:space="preserve">
+    <value>Display fur debug text when the game is running?</value>
+  </data>
+  <data name="Tooltip_DisplayMesh" xml:space="preserve">
+    <value>Fur attaches to the display mesh</value>
+  </data>
+  <data name="Tooltip_DrawControlPoints" xml:space="preserve">
+    <value>Debug - Draw control points</value>
+  </data>
+  <data name="Tooltip_DrawFurGuides" xml:space="preserve">
+    <value>Debug - Draw fur guides</value>
+  </data>
+  <data name="Tooltip_FurGuideGenMethod" xml:space="preserve">
+    <value>Generates fur guides using the selected method (splines, morphs, normals). Spline or Morph modes depend on external spline data or morphs in the imported mesh</value>
+  </data>
+  <data name="Tooltip_FurLength" xml:space="preserve">
+    <value>The maximum distance that fur shells can reach during growth</value>
+  </data>
+  <data name="Tooltip_FurMat" xml:space="preserve">
+    <value>A material which uses the NeoFur shader</value>
+  </data>
+  <data name="Tooltip_GravityInfluence" xml:space="preserve">
+    <value>Gravitational influence on fur strands</value>
+  </data>
+  <data name="Tooltip_GuideDotColor" xml:space="preserve">
+    <value>Debug - Color of fur guide dots</value>
+  </data>
+  <data name="Tooltip_GuideDotSize" xml:space="preserve">
+    <value>Debug - Size of fur guide dots</value>
+  </data>
+  <data name="Tooltip_GuideLength" xml:space="preserve">
+    <value>Length of the guides generated from vertex normals</value>
+  </data>
+  <data name="Tooltip_GuideRayColor" xml:space="preserve">
+    <value>Debug - Color of fur guide rays</value>
+  </data>
+  <data name="Tooltip_LODEndDist" xml:space="preserve">
+    <value>Distance from camera at which the number of fur shells will reach LOD Minimum</value>
+  </data>
+  <data name="Tooltip_LODMaxCamDist" xml:space="preserve">
+    <value>Distance from camera at which fur meshes (including LODs) are culled</value>
+  </data>
+  <data name="Tooltip_LODMinShells" xml:space="preserve">
+    <value>The number of fur shells remaining when the camera reaches LOD End Distance</value>
+  </data>
+  <data name="Tooltip_LODNearCompressionDist" xml:space="preserve">
+    <value>Distance for LOD near compression effect</value>
+  </data>
+  <data name="Tooltip_LODNearCompressionMax" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Tooltip_LODNearCompressionMin" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Tooltip_LODStartDist" xml:space="preserve">
+    <value>Distance from camera at which fur begins to transition between Shell Count and LOD Minimum</value>
+  </data>
+  <data name="Tooltip_MaxRotFromNormal" xml:space="preserve">
+    <value>Maximum angle that fur strands can rotate from normals</value>
+  </data>
+  <data name="Tooltip_MaxStretchMult" xml:space="preserve">
+    <value>Multiplier for the maximum distance fur can stretch. Should be greater than Min Stretch Distance Multiplier</value>
+  </data>
+  <data name="Tooltip_MinStretchMult" xml:space="preserve">
+    <value>Multiplier for the minimum distance fur can stretch. Should be less than Max Stretch Distance Multiplier</value>
+  </data>
+  <data name="Tooltip_NormalDirectionBlend" xml:space="preserve">
+    <value>Zero to One value interpolating between mesh normal and physics control point for the position of the fur</value>
+  </data>
+  <data name="Tooltip_OverrideGrowthMesh" xml:space="preserve">
+    <value>A growth mesh to use instead of the mesh on the renderer. If using a SkinnedMeshRenderer this mesh must be rigged identically.</value>
+  </data>
+  <data name="ToolTip_OverrideRenderer" xml:space="preserve">
+    <value>If this is not set, the renderer on this gameobject will be used if one exist. Otherwise the one specified here will be used.</value>
+  </data>
+  <data name="Tooltip_RadialInfluence" xml:space="preserve">
+    <value>Scale for influence of radial force</value>
+  </data>
+  <data name="Tooltip_RecieveShadows" xml:space="preserve">
+    <value>Fur will recieve shadows</value>
+  </data>
+  <data name="Tooltip_SceneCamera" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Tooltip_ShadowCastingMode" xml:space="preserve">
+    <value>How fur will cast shadows</value>
+  </data>
+  <data name="Tooltip_ShellCount" xml:space="preserve">
+    <value>Number of fur shells to grow</value>
+  </data>
+  <data name="Tooltip_ShellFade" xml:space="preserve">
+    <value>Scale for distance at which shells begin to fade</value>
+  </data>
+  <data name="Tooltip_SpringAngStiff" xml:space="preserve">
+    <value>Angular stiffness for fur strands</value>
+  </data>
+  <data name="Tooltip_SpringDampMult" xml:space="preserve">
+    <value>Scale for dampening influence</value>
+  </data>
+  <data name="Tooltip_SpringLenStiff" xml:space="preserve">
+    <value>Linear stiffness for fur strands</value>
+  </data>
+  <data name="Tooltip_SubMeshIndex" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Tooltip_UseComputeShader" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Tooltip_UseRendererSettings" xml:space="preserve">
+    <value>Copy shadow settings from the renderer of the display mesh</value>
+  </data>
+  <data name="Tooltip_VelocityInfluence" xml:space="preserve">
+    <value>Scale for influence of velocity </value>
+  </data>
+  <data name="Tooltip_WindInfluence" xml:space="preserve">
+    <value>Scale for influence of wind force</value>
+  </data>
+  <data name="Tooltip_WindZone" xml:space="preserve">
+    <value />
+  </data>
+</root>
